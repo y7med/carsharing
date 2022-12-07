@@ -1,0 +1,236 @@
+@media (max-width: 1250px){
+    .benefits__images{
+        width: 40%;
+    }
+    .autopark__item{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .autopark__item-box {
+        max-width: 365px;
+    }
+}
+
+@media (max-width: 1140px){
+    .autopark__tabs{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .autopark__tab-img{
+        max-width: 200px;
+        width: 100%;
+    }
+}
+@media (max-width: 1140px){
+    .rent__inner{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .rent__contant{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1000px){
+    .benefits__items{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .benefits__contant{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .benefits__text +.benefits__text{
+        width: 100%;
+    }
+}
+@media (max-width: 950px){
+    .footer .menu{
+        display: none;
+    }
+    .menu{
+        order: 1;
+        z-index: 20;
+    }
+    .menu__list{
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        background-color: #1c0000;
+        right: 0;
+        text-align: center;
+        transform: translateY(-500px);
+        transition: all .5s;
+    }
+    .menu__list.menu__list--active{
+        transform: translateY(0);
+    }
+    .menu__btn{
+        display: block;
+        width: 35px;
+        height: 24px;
+        border: none;
+        background-color: transparent;
+        border-top: 2px solid #a80009;
+        border-bottom: 2px solid #a80009;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 35px;
+            height: 2px;
+            background-color: #a80009;
+            left: 0;
+            top: 9px;
+
+        }
+    }
+    .menu__list-link{
+        padding: 20px 0;
+        display: block;
+    }
+    .top__heading{
+        display: block;
+    }
+    .top__contant{
+        width: 100%;
+        padding-top: 0;
+    }
+    .top__slider{
+        width: 100%;
+    }
+    .top__benefits{
+        display: block;
+    }
+    .top__items{
+        width: 100%;
+    }
+    .top__links{
+        padding-right: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .feedback__input{
+        width: 70%;
+    }
+    .footer,
+    .conditions,
+    .feedback,
+    .reviews,
+    .benefits,
+    .rent,
+    .autopark{
+        padding: 50px 0;
+    }
+    .contacts{
+        padding-top: 50px;
+    }
+    .contacts__items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contacts__item{
+        margin-bottom: 20px;
+    }
+
+}
+@media (max-width: 800px){
+    .rent__item{
+        margin: 30px;
+    }
+    .autopark__item-box{
+        max-width: 100%;
+    }
+}
+@media (max-width: 640px){
+    .rent__item{
+        width: 100%;
+        min-height: 245px;
+    }
+    .rent__contant{
+        text-align: center;
+    }
+    .rent__item-title{
+        margin-bottom: 20px;
+    }
+    .feedback__input{
+        width: 100%;
+    }
+    .autopark__tab-img{
+        max-width: 170px;
+    }
+    .autopark__tab{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 535px){
+    .benefits__list{
+        width: 100%;
+    }
+    .benefits__images{
+        width: 70%;
+    }
+    .benefits__list-item{
+        margin-right: 0;
+        text-align: left;
+        padding-right: 0;
+        padding-left: 26px;
+        &::after{
+            right: auto;
+            left: 0;
+        }
+    }
+}
+@media (max-width: 450px){
+    .top__heading{
+        padding-top: 45px;
+    }
+    .top__title{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .top__slider-text{
+        padding-right: 0;
+    }
+    .top__items{
+        flex-wrap: wrap;  
+    }
+    .top__item{
+        margin: 20px;
+    }
+    .rent__item{
+        margin: 30px 0;
+    }
+    .footer__top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .phone{
+        margin-top: 30px;
+        display: inline-block;
+    }
+}
+@media (max-width: 400px){
+    .phone{
+        display: none;
+    }
+    .phone__mob{
+        display: block;
+    }
+    tr{
+        padding: 3px;
+        font-weight: 500;
+        font-size: 15px;
+      }
+      td{
+          padding-left: 8px;
+          padding-right: 8px;
+      }
+}
+@media (max-width: 360px){
+    .top__item{
+        width: 100%;
+    }
+}
